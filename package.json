@@ -1,0 +1,25 @@
+{
+	"name": "jsa-day02",
+	"version": "1.0.0",
+	"main": "./src/index.js",
+	"license": "MIT",
+	"scripts": {
+		"learn": "nodemon -q -x 'node ./src/utils/clearConsole.js && node .'",
+		"start": "webpack-dev-server --mode development --open --hot",
+		"build": "webpack --mode production"
+	},
+	"dependencies": {
+		"readline-sync": "^1.4.10"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.15.7",
+		"@babel/core": "^7.15.5",
+		"@babel/preset-env": "^7.15.6",
+		"babel-loader": "^8.2.2",
+		"html-webpack-plugin": "^5.3.2",
+		"nodemon": "^2.0.12",
+		"webpack": "^5.56.0",
+		"webpack-cli": "^4.8.0",
+		"webpack-dev-server": "^4.3.0"
+	}
+}
